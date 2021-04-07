@@ -1,6 +1,7 @@
 # 🧰 CasePaths
 
-[![Swift 5.1](https://img.shields.io/badge/swift-5.1-ED523F.svg?style=flat)](https://swift.org/download/)
+[![Swift 5.3](https://img.shields.io/badge/swift-5.3-ED523F.svg?style=flat)](https://swift.org/download/)
+[![Swift 5.2](https://img.shields.io/badge/swift-5.2-ED523F.svg?style=flat)](https://swift.org/download/)
 [![CI](https://github.com/pointfreeco/swift-case-paths/workflows/CI/badge.svg)](https://actions-badge.atrox.dev/pointfreeco/swift-case-paths/goto)
 [![@pointfreeco](https://img.shields.io/badge/contact-@pointfreeco-5AA9E7.svg?style=flat)](https://twitter.com/pointfreeco)
 
@@ -150,11 +151,15 @@ If you want to use CasePaths in a [SwiftPM](https://swift.org/package-manager/) 
 
 ``` swift
 dependencies: [
-  .package(url: "https://github.com/pointfreeco/swift-case-paths.git", from: "0.1.0")
+  .package(url: "https://github.com/pointfreeco/swift-case-paths.git", from: "0.1.2")
 ]
 ```
 
-## Prior art
+## Documentation
+
+The latest documentation for CasePaths' APIs is available [here](https://pointfreeco.github.io/swift-case-paths/).
+
+## Other libraries
 
   - [`EnumKit`](https://github.com/gringoireDM/EnumKit) is a protocol-oriented, reflection-based solution to ergonomic enum access and inspired the creation of this library.
 
